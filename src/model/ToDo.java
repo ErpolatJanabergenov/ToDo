@@ -3,6 +3,7 @@ package model;
 import java.util.UUID;
 
 public class ToDo extends BaseModel {
+
     private String name;
     private String text;
     private UUID userId;
